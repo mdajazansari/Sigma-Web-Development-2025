@@ -20,6 +20,8 @@ let b = 17;
 let c = (a>b) ? (a-b):(b-a);
 
 console.log(c);
+console.log(c);
+
 
 
 /* Translates to:-
