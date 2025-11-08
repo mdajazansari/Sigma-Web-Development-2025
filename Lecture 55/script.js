@@ -25,15 +25,25 @@
 // console.log(a)
 
 
-let a = "Ajaz";
-let b = 2;
-let c = 3.4;
-const d = true;
-let e = undefined;
-let f = null;
+// let a = "Ajaz";
+// let b = 2;
+// let c = 3.4;
+// const d = true;
+// let e = undefined;
+// let f = null;
 
-console.log (a, b, c, d, e, f);
-console.log (typeof(a), typeof(b), typeof(c), typeof(d), typeof(e), typeof(f));
+// console.log (a, b, c, d, e, f);
+// console.log (typeof(a), typeof(b), typeof(c), typeof(d), typeof(e), typeof(f));
 
+
+let o = {
+    "name": "Ajaz",
+    "salary": "100 crore USD",
+    "city": "hyderabad",
+    "is_handsome": true
+}
+console.log(o);
+o.promotion = "300 crore USD";
+console.log(o);
 
  
